@@ -1,3 +1,3 @@
 # Review-System
 Review system with emoji. Hover and choose, I build with project with simple Html and Css.
-sd-jerry.github.io/Review-System/
+ https://sd-jerry.github.io/Review-System/
