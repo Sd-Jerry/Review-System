@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #20152d;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
 .rating {
