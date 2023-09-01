@@ -87,6 +87,7 @@ body {
 
     .rating {
         flex-direction: column;
+        max-width: 100%;
     }
 
     .rating img {
@@ -95,10 +96,12 @@ body {
 
     .rating label {
         top: 50px;
+        text-align: center;
     }
 
     .text {
-        top: -20px;
+        top: 0px;
         color: whitesmoke;
+        font-size: 25px;
     }
 }
