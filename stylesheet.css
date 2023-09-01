@@ -28,7 +28,7 @@ body {
 .rating label {
     position: relative;
     width: 0;
-    height: 128px;
+    height: 125px;
     cursor: pointer;
     transition: 0.5s;
     filter: grayscale(1);
@@ -81,4 +81,24 @@ body {
     text-align: center;
     white-space: nowrap;
     font-size: 36px;
+}
+
+@media screen and (max-width:800px) {
+
+    .rating {
+        flex-direction: column;
+    }
+
+    .rating img {
+        height: 80px;
+    }
+
+    .rating label {
+        top: 50px;
+    }
+
+    .text {
+        top: -20px;
+        color: whitesmoke;
+    }
 }
